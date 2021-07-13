@@ -1,6 +1,6 @@
 using System;
 
-namespace AbstractFactory {
+namespace FactoryMethod {
     public interface IButton {
         void Click();
     }

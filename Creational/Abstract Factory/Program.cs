@@ -8,6 +8,7 @@ namespace AbstractFactory
         {
             Console.WriteLine("This program draws GUI depending on OS (\"Linux\", \"Windows\", \"Mac\").");
             while(true) {
+                Console.WriteLine();
                 Console.WriteLine("Write your OS type:");
                 string type = Console.ReadLine();
                 IGUIFactory factory;
